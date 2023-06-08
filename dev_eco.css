@@ -1,0 +1,94 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+article div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:48%;
+    padding: 10px;
+}
+#dev-eco{
+    background-color: #ccd1dd ;
+    border-radius: 20px;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#pre_green{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin:10px
+}
+#autre_moy{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #ccd1dd ;
+    border-radius: 20px;
+}
+#autre_moy #cont_autre_moy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    width:100%;
+    justify-content: space-between;
+    gap:20px
+}
+#cont_autre_moy div{
+    width: 46%;
+}
+main img{
+    border-radius: 50%;
+    height:280px;
+    width:258px;
+    padding: 10px;
+}
+#cont_autre_moy :last-child{
+padding-right: 20px;
+}
+main section:last-child ul{
+    width:100%
+}
+main section:last-child article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+main section:last-child article:last-child{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+main section:last-child article div{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+main section:last-child article:last-child div h2{
+    align-self: flex-end;
+    margin-right: 20px;
+
+}
+main section:last-child article img{
+    align-self: center;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+main section:last-child article:last-child div ul{
+    width:50%
+}
+h2{
+    padding-left: 10px;
+}
+#les_def{
+    margin-left: 20px;
+}

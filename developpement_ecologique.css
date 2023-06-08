@@ -1,0 +1,30 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div {
+    display: flex;
+}
+
+section:first-child > div {
+    flex-direction: column;
+}
+
+article:first-child {
+    border-right: 1px solid black;
+}
+
+div:nth-child(3) h3 {
+    text-align: center;
+}
+
+h2:last-child {
+    text-align: end;
+}
+
+img {
+    border-radius: 50%;
+    height: 160px;
+    width: 300px;
+}

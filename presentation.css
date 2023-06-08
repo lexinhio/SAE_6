@@ -1,0 +1,39 @@
+main h1{
+    display: flex;
+    justify-content: center;
+}
+main section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    flex-wrap: wrap;
+}
+#gest_entre{
+    padding-left: 10px;
+}
+#hist_orange{
+    padding-right: 10px; 
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+article p{
+    margin:5px
+
+}
+main section .hrcl{
+    border-left: outset;
+    height: 95%;
+}
+h3{
+    margin :5px
+}
+h4{
+    margin:5px
+}

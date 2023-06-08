@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="utf-8" />
+    <title>Orange Business Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formulaire.css">
+  </head>
+
+<body>
+    <header>
+        <a href= "Index.html"><img src="./image/OBS_Logo.png    " alt="Logo" ></a>
+        <input id="searchbar" type="text" name="search" placeholder="Faites une recherche...">
+        <a id="service" href="https://dro.orange-business.com/authentification?codeContexte=eceDefault&TYPE=33554433&REALMOID=06-0008fae7-1ec1-1184-b5ad-5e0e0a63d064&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-WSU81RKkuhqhTH%2b1DDCWyU0dUsCVOUEXZH%2fo6toyJ5TivCcULz4UBdXhakZa13z8&TARGET=-SM-HTTPS%3a%2f%2fespaceclient%2eorange--business%2ecom%2fgroup%2fece2%2fhome%3fcodeContexte%3deceDefault" target="_blank">Service Client</a>
+
+        <nav>
+            <ul>
+                <li><a class="actif" href="presentation.html">Présentation</a></li>
+                <li><a href="Produits_Services.html">Les produits et services</a></li>
+                <li><a href="metiers.html">Leurs métiers</a></li>
+                <li><a href="Dev_eco.html">Développement écologique</a></li>
+                <li><a href="engagement.html">Engagements sociaux et numériques</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="post">
+        <h1>Formulaire de contact :</h1>
+    <div>
+        <label>Nom :
+            <input id="nom" type="text" name="Nom" placeholder="Nom" >
+            
+        </label>
+    </div>
+    <div>
+        <label>Prénom :
+            <input id="Prénom" type="text" name="Prénom" placeholder="Prénom">
+        </label>
+    </div>
+    <div>
+        <label>Age :
+            <input id="Age" type="number" name="Age"  min="0"  placeholder="Age">
+        </label>
+    </div>
+    <fieldset>
+        <legend>Sexe:</legend>
+        <label>
+            <input id="SexeH" type="radio" name="sexe" value="Homme" checked>
+            Homme
+        </label>
+        <label>
+            <input id="SexeF" type="radio" name="sexe" value="Femme">
+            Femme
+        </label>
+    </fieldset>
+    <div>
+        <label >
+            Email :
+            <input id="Email" type="email" name="email" placeholder="Votre Email" required>
+        </label>
+    </div>
+    <fieldset id="Metier">
+        <legend>Métiers qui vous intéressent :</legend>
+        <label >
+            <input id="Métier1" type="checkbox" name="métier" value="métier 1">
+            Métier 1
+        </label>
+        <label >
+            <input id="Métier2" type="checkbox" name="métier" value="métier 2">
+            Métier 2
+        </label>
+        <label >
+            <input id="Métier3" type="checkbox" name="métier" value="métier 3">
+            Métier 3
+        </label>
+        <label >
+            <input id="Métier4" type="checkbox" name="métier" value="métier 4">
+            Métier 4
+        </label>
+        <label >
+            <input id="Métier5" type="checkbox" name="métier" value="Aucun" checked>
+            Aucun
+        </label>
+    </fieldset>
+    <div id="question1">
+        <label id="question">
+        Quelle est votre question ?
+        <textarea id="question2" name="question" placeholder="La question"></textarea>
+        </label>
+    </div>
+    <div id="Envoyerdiv">
+    <label id="envoyer1">
+        <input id="envoyer" type="submit" value="Envoyer">
+    </label>
+</div>
+    </form>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://twitter.com/orangebusiness" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg" alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/company/orange-business-services?original_referer=https%3A%2F%2Fwww.orange-business.com%2F" target="_blank"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="Linkedin"></a></li>
+                <li><a href="https://www.facebook.com/orangebusiness" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.youtube.com/user/orangebusiness" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Youtube"></a></li>
+            </ul>
+        </nav>
+        <a class ="actif" href="formulaire.html">Contacts et renseignements</a> 
+        <a class="actif" href ="credit.html">Crédits</a>
+    </footer>
+    </body>
+</html>

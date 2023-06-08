@@ -1,0 +1,14 @@
+main ul li ul{
+    list-style:circle;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+main ul{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

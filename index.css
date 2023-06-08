@@ -1,0 +1,95 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    align-self: center;
+}
+section div{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    margin:5px;
+    width:70%;
+}
+main{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main .hrcl{
+    display: flex;
+    flex-direction: row;
+width: 90%
+}
+hr{
+    align-self: flex-start;
+}
+h2{
+    margin-bottom: 10px;
+}
+section div h3{
+    margin:5px
+}
+section img{
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+main ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-color: #ff7900;
+    list-style: none;
+    width:80%;
+    padding: 5px;
+    border-radius:20px ;
+}
+#met{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+#eng_soc{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+#eng_soc h2{
+    align-self: flex-end;
+}
+#met h2{
+    align-self: flex-end;
+}
+
+main ul li a{
+    color:black
+}
+.menu{
+    padding:0;   
+}
+.sub-menu{
+    display: none;
+}
+
+main .menu li a{
+    text-decoration: none;
+}
+main ul li:hover .sub-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style:armenian;
+}
+main ul li:hover .sub-menu li:hover a{
+    transform: scale(1.1);
+}
+h2 a{
+    text-decoration: none;
+    color: black;
+}
